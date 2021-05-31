@@ -1,0 +1,23 @@
+
+body{
+    background: rgb(248, 246, 245);
+}
+
+.content-area {
+	position: absolute;
+	top: 48vw;
+	/*background-color: #242c63;*/
+	background-color: #143A83;
+	border-top: white  solid;
+	
+}
+
+@media(max-width:1200px){
+
+	.content-area {
+		position: absolute;
+		top: 65vw;
+		background-color: #143A83;	
+	}
+
+}

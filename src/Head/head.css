@@ -1,0 +1,184 @@
+  .header{
+  z-index: 10;
+	position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: #143A83;
+  border-bottom: white  solid;
+ }
+
+  
+  .log{
+    display: flex;
+    width: 4vw;
+    margin-left: 10vw;
+  }
+
+	
+
+	.b{
+		font-size: 2vw;
+    color: #D4C10D;
+		margin-left: 7vw;
+		font-family: poppins;
+		letter-spacing: 0.1em;
+    text-decoration: none;
+    
+	}
+
+
+ 
+ .d{
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      border-bottom-width: 1vw black solid ;
+      color: white;
+
+   }
+
+
+
+
+    .dropbtn {
+      font-size: 2vw;
+      font-family: poppins;
+      letter-spacing: 0.1em;
+      color: #D4C10D;
+      text-decoration: none;
+      cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 20vw;
+        border-radius:0.8vw;
+        background-color: #111c5e;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.699);
+        z-index: 1;
+        
+      }
+      
+      .dropdown-content .li {
+        color: black;
+        text-decoration: none;
+        display: block;
+      }
+
+      .li:hover{
+        background-color: #D4C10D;
+
+      }
+
+      link{
+        text-decoration:none ;
+       
+      }
+      
+      
+      
+      .dropbtn:hover{color: bl;}
+      
+      .dropdown:hover .dropdown-content {display: block; cursor: pointer;}
+      
+      
+
+	
+
+	.b:hover{
+		text-decoration: none;
+    color: black;
+	}
+
+  
+
+
+  .english{
+    width: 5vw;
+    margin-left: 1vw;
+    cursor: pointer;
+  }
+
+  .arab{
+    width:4vw;
+    cursor: pointer;
+  }
+ 
+ 
+
+
+	@media(max-width:1200px){
+
+
+    .log{
+      display: flex;
+      width: 10vw;
+      margin-left: 10vw;
+    }
+
+
+    .b{
+      font-size: 5vw;
+      color: #D4C10D;
+      display: flex;
+      margin-left: 8vw;
+      font-family: poppins;
+      margin-top: 5vw;
+      letter-spacing: 0.1em;
+      text-decoration: none;  
+    }
+
+
+
+    .dropbtn {
+      font-size: 5vw;
+      font-family: poppins;
+      letter-spacing: 0.1em;
+      color: #D4C10D;
+      text-decoration: none;
+      cursor: pointer;
+      }
+
+      .english{
+        width: 12vw;
+        margin-top:5vw;
+        margin-left: 5vw;
+        cursor: pointer;
+      }
+    
+      .arab{
+        width:10vw;
+        margin-top:5vw;
+        margin-left: 5vw;
+        cursor: pointer;
+      }
+     
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        margin-left: 25vw;
+        margin-top: -5vw;
+        width: 50vw;
+        border-radius:0.8vw;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.699);
+        z-index: 1;
+        
+      }
+
+    
+  
+
+  }
+
+
+
+
+
+

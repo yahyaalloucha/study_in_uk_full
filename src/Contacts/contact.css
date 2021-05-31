@@ -1,0 +1,483 @@
+.contact{
+    margin-top: 8vw;
+    width:98.5vw;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.touch-us{
+    display: flex;
+    width: 50vw;
+    margin-left: 25vw;
+    
+}
+
+.shy-eng{
+    margin-left:12vw;
+    margin-top: 2vw;
+    color:blanchedalmond;
+    font-size: 3vw;
+
+}
+
+.shy-arb{
+    margin-left:65vw;
+    margin-top: 2vw;
+    color:blanchedalmond;
+    font-size: 3vw;
+
+}
+
+
+
+.eml-eng{
+    color: rgb(18, 197, 182); /*dark mode*/
+    text-decoration: none;
+    margin-left:15vw;
+}
+
+.eml-arb{
+
+    color: rgb(18, 197, 182); /*dark mode*/
+    text-decoration: none;
+    margin-left:60vw;
+
+}
+
+.eml-eng:hover{
+    text-decoration: none;
+    color: crimson; 
+
+}
+
+.eml-arb:hover{
+    text-decoration: none;
+    color: crimson; 
+
+}
+
+.get-eng{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color:white;
+    font-weight: bolder;
+    margin-left:12vw;
+    margin-right:1vw;
+    margin-top: 2vw;
+    display: flex;
+}
+
+
+.get-arb{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color:white;
+    font-weight: bolder;
+    text-align: right;
+    margin-left:40vw;
+    margin-right:1vw;
+    margin-top: 2vw;
+    display: flex;
+}
+ 
+.get-arb2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color:white;
+    font-weight: bolder;
+    text-align: right;
+    margin-left:73vw;
+    margin-right:1vw;
+    margin-top: 2vw;
+    display: flex;
+}
+
+.get-arb3{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color:white;
+    font-weight: bolder;
+    text-align: right;
+    margin-left:76vw;
+    margin-right:1vw;
+    margin-top: 2vw;
+    display: flex;
+}
+
+
+.get-arb4{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color:white;
+    font-weight: bolder;
+    text-align: right;
+    margin-left:74vw;
+    margin-right:1vw;
+    margin-top: 2vw;
+    display: flex;
+}
+ 
+
+.info-eng{
+
+    font-family: 'Alfa Slab One', cursive;
+    color: #D4C10D;
+    font-size: 5vw;
+    margin-top: 2vw;
+    margin-left: 11vw;
+    display: flex;
+}
+
+.info-arb{
+
+    font-family: 'Alfa Slab One', cursive;
+    color: #D4C10D;
+    font-size: 5vw;
+    margin-top: 2vw;
+    margin-left: 54vw;
+    display: flex;
+}
+
+
+.bar1{
+    display: flex; 
+}
+
+
+.bar2{
+    display: flex;
+    margin-left:11vw;
+    margin-right:1vw;
+    
+}
+
+.bar2-arb{
+    display: flex;
+    margin-left:60vw;
+    margin-right:1vw;
+    
+    
+}
+
+.hash-consolt-eng{
+    text-decoration: none;
+    color:#143A83;
+}
+
+
+
+.button-consolt-eng{
+    margin-left: 15vw;
+    border-radius:9px;
+    background-color:#D4C10D;
+    font-size: 30pxpx;
+    padding: 10px;
+    padding-left: 8px;
+    font-weight: bolder;
+    padding-right: 8px
+}
+
+.button-consolt-arb{
+
+    margin-left: 70.5vw;
+    border-radius:9px;
+    background-color:#D4C10D;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 8px;
+    font-weight: bolder;
+    padding-right: 8px
+}
+
+
+.hash-consolt-arb{
+    text-decoration: none;
+    color:#143A83;
+}
+
+
+
+
+.get-arb3-link{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color:white;
+    font-weight: bolder;
+    text-align: right;
+    margin-left:74.5vw;
+    margin-right:1vw;
+    margin-top: 2vw;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.information{
+    padding: 1vw 1vw;
+    border-color: rgba(0,0,0,.1);
+    color: #5c5b66;
+    font-size: 1vw;
+    text-align: center;
+    width: 40vw;
+    margin-top:1vw;
+    border-radius: 0.5vw;
+}
+
+
+
+.touch{
+    padding: 1vw 1vw;
+    border-color: rgba(0,0,0,.1);
+    color: #5c5b66;
+    font-size: 1vw;
+    height: 6vw;
+    text-align: center;
+    width: 40vw;
+    margin-top:1vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    
+}
+
+
+.pageclip-form{
+ margin-right: 5vw;
+}
+
+
+
+.pageclip-form__submit{
+    margin-left: 25vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    width: 15vw;
+    padding: 0.5vw;
+    height: 2.8vw;
+
+}
+
+
+
+
+
+.link{
+    font-size: 2.3em;  
+}
+
+
+
+
+.fa{
+    width:2.9rem;
+    margin-top: 0.3vw;
+    margin:1vw;
+}
+
+.in{
+    width:2.9rem;
+    margin-top: 0.3vw;
+}
+
+
+.tl{
+    width:2.9rem;
+    margin-top: 0.3vw;
+    margin:1vw;
+
+}
+
+.wp{
+    width:3.5rem;
+    margin-top: 0.5vw;
+
+    
+}
+
+
+
+
+
+@media (max-width:1200px){
+
+
+    .contact{
+        margin-top: 20vw;    
+    }
+
+
+    .touch-us{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    .info-eng{
+
+        font-size: 6.5vw;
+        margin-top: 5vw;
+    
+    }
+
+    .info-arb{
+        font-size: 7vw;
+        margin-top: 5vw;
+    }
+
+    .shy-arb{
+        margin-left:60vw;
+        margin-top: 2vw;
+        font-size: 6vw;
+    }
+    
+
+
+    .shy-eng{
+        font-size: 7vw;
+    
+    }
+
+
+    .get-eng{
+        font-size: 5vw;
+        margin-left:12vw;
+        margin-right:1vw;
+        margin-top: 5vw;
+        
+    }
+
+    .get-arb{
+        
+        font-size: 5vw;
+        margin-left:10vw;
+        margin-right:9vw;
+        margin-top: 5vw;
+    }
+    
+    .get-arb2{
+       
+        font-size:  6vw;
+
+        margin-left:65vw;
+        margin-right:1vw;
+        margin-top: 2vw;
+      
+    }
+
+    .get-arb3{
+       
+        font-size: 6vw;
+        margin-left:79vw;
+        margin-right:1vw;
+  
+
+    }
+    
+
+    .fa{
+        width:10vw;
+        margin-top: 0.3vw;
+        margin:1vw;
+    }
+    
+    .in{
+        width:10vw;
+        margin-top: 0.3vw;
+    }
+    
+    
+    .tl{
+        width:10vw;
+        margin-top: 0.3vw;
+        margin:1vw;
+    
+    }
+    
+    .wp{
+        width:12vw;
+        margin-top: 0.5vw;
+     
+    }
+    
+
+    .link{
+        font-size: 2.3em;  
+        margin-top: -5vw;
+    }
+    
+
+    .eml-arb{
+
+        color: rgb(18, 197, 182);
+        text-decoration: none;
+        margin-left:15vw;
+    
+    }
+
+    .get-arb4{
+        
+        font-size: 1.2rem;
+        margin-left:65vw;
+        margin-right:1vw;
+        margin-top: 5vw;
+        
+    }
+     
+    .bar2-arb{
+        margin-left:45vw;
+        margin-right:1vw;
+        margin-top: -5vw;
+    }
+
+    .get-arb3-link{
+        margin-left:70vw;
+        margin-top: 5vw;
+    }
+    
+
+    .hash-consolt-eng{
+        text-decoration: none;
+        color:#143A83;
+    }
+    
+    
+    
+    .button-consolt-eng{
+        margin-left: 15vw;
+        border-radius:9px;
+        background-color:#D4C10D;
+        font-size: 5vw;
+        padding: 10px;
+        padding-left: 8px;
+        font-weight: bolder;
+        padding-right: 8px
+    }
+    
+
+    .button-consolt-arb{
+
+        margin-left: 68vw;
+        border-radius:9px;
+        background-color:#D4C10D;
+        font-size: 5.5vw;
+        padding: 10px;
+        padding-left: 8px;
+        font-weight: bolder;
+        padding-right: 8px
+    }
+    
+    
+    .hash-consolt-arb{
+        text-decoration: none;
+        color:#143A83;
+    }
+        
+}
+
+
+
