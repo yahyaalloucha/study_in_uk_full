@@ -1,61 +1,77 @@
-import React, { Component } from 'react'
-import Touch from './Touch.jpg';
-import Facebook from './Face.jpg';
-import Instagram from './Insta.jpg';
-import Telegram from './Telegram.jpg';
-import Whatsapp from './Wat.jpg';
-import { Mycontext } from '../Mycontext/Context';
-import { HashLink } from 'react-router-hash-link';
-
-
+import React, { Component } from "react";
+import Touch from "./Touch.jpg";
+import Facebook from "./Face.jpg";
+import Instagram from "./Insta.jpg";
+import Telegram from "./Telegram.jpg";
+import Whatsapp from "./Wat.jpg";
+import { Mycontext } from "../Mycontext/Context";
+import { HashLink } from "react-router-hash-link";
 
 export class contactenglish extends Component {
   render() {
     return (
-      <Mycontext.Consumer>{() =>
+      <Mycontext.Consumer>
+        {() => (
+          <div className="contact">
+            <img className="touch-us" src={Touch} alt="" />
 
-        <div className="contact" >
-          <img className="touch-us" src={Touch} alt="" />
-
-          <div className="contact-container">
-            <p className="info-eng">Get in touch</p></div>
-
-          <div className="get-container">
-            <span className="shy-eng">Dont be Shy</span>
-            <br />
-            <strong>
-              <p className="get-eng">Feel free to ask us anything that you want. We are always open to discussions</p>
-              <p className="get-eng">Contact us</p>
-              <p className="get-eng"> by: {" "}</p>
-              <a className="eml-eng" href="mailto:tbestfuture01@gmail.com">Emailing us here</a>
-              <p className="get-eng">Consolt us: {" "}</p>
-              <button className="button-consolt-eng"><HashLink className="hash-consolt-eng" smooth to="/Consoltation#Consoltation">Click here</HashLink></button>
-              <p className="get-eng">or follow us on: {" "}</p>
-            </strong>
-          </div>
-
-          <div className="bar1">
-
-            <div className="bar2">
-              <a className="link" href="https://www.messenger.com/t/"> <img className="fa" src={Facebook} alt="" /> </a>
-              <a className="link" href="http://www.instagram.com/best_future_europ"> <img className="in" src={Instagram} alt="" /> </a>
-              <a className="link" href="https://telegram.me/Bestfutre"> <img className="tl" src={Telegram} alt="" /> </a>
-              <a className="link" href="https://wa.me/+380960498331"> <img className="wp" src={Whatsapp} alt="" /> </a>
+            <div className="contact-container">
+              <p className="info-eng">Get in touch</p>
             </div>
 
+            <div className="get-container">
+              <span className="shy-eng">Dont be Shy</span>
+              <br />
+              <strong>
+                <p className="get-eng">
+                  Feel free to ask us anything that you want. We are always open
+                  to discussions
+                </p>
+                <p className="get-eng">Contact us</p>
+                <p className="get-eng"> by: </p>
+                <a className="eml-eng" href="mailto:tbestfuture01@gmail.com">
+                  Emailing us here
+                </a>
+                <p className="get-eng">Consolt us: </p>
+                <HashLink
+                  className="hash-consolt-eng"
+                  smooth
+                  to="/Consoltation#Consoltation"
+                >
+                  <button className="button-consolt-eng">Click here</button>
+                </HashLink>
+                <p className="get-eng">or follow us on: </p>
+              </strong>
+            </div>
+
+            <div className="bar1">
+              <div className="bar2">
+                <a className="link" href="https://www.messenger.com/t/">
+                  {" "}
+                  <img className="fa" src={Facebook} alt="" />{" "}
+                </a>
+                <a
+                  className="link"
+                  href="http://www.instagram.com/best_future_europ"
+                >
+                  {" "}
+                  <img className="in" src={Instagram} alt="" />{" "}
+                </a>
+                <a className="link" href="https://telegram.me/Bestfutre">
+                  {" "}
+                  <img className="tl" src={Telegram} alt="" />{" "}
+                </a>
+                <a className="link" href="https://wa.me/+380960498331">
+                  {" "}
+                  <img className="wp" src={Whatsapp} alt="" />{" "}
+                </a>
+              </div>
+            </div>
           </div>
-
-        </div>
-
-
-
-
-
-      }</Mycontext.Consumer>
-
-
-    )
+        )}
+      </Mycontext.Consumer>
+    );
   }
 }
 
-export default contactenglish
+export default contactenglish;
